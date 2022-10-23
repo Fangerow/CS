@@ -19,6 +19,12 @@ def text_map(wrapped_text):
     text = ''.join(text)
     return text
 
-wrapped_joke = get()
-print(text_map(wrapped_joke))
+
+def main():
+    wrapped_joke = get()
+    print(text_map(wrapped_joke))
+
+
+if __name__ == "__main__":
+    main()
 
