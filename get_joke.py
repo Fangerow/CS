@@ -11,4 +11,14 @@ def get():
     
     return text
 
-print(get())
+def text_map(wrapped_text):
+    text = wrapped_text.split(">")
+    text[0] = ""
+    text = ''.join(text).split('<')
+    text[-1] = ""
+    text = ''.join(text)
+    return text
+
+wrapped_joke = get()
+print(text_map(wrapped_joke))
+
