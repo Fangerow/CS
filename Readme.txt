@@ -1,2 +1,4 @@
 The main goal of this great project is people entertainment.
-You just need to run "joke executer.py" to have fun or be disappointed.
+
+To use it, run "Python3 joke_executer.py".
+And than get result. 
