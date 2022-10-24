@@ -1,4 +1,4 @@
 The main goal of this great project is people entertainment.
 
 To use it, run "Python3 joke_executer.py".
-And than get result. 
+Requirements: Python 3.8 
