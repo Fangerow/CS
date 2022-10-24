@@ -19,3 +19,8 @@ def text_map(wrapped_text):
     text = ''.join(text)
     return text
 
+def write_to_file(joke_text):
+    assert type(joke_text) == str
+    with open('Haha.txt', 'w') as haha:
+        haha.write(joke_text)
+    return
